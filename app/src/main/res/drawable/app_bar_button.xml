@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background gradient oval shape -->
+    <item>
+        <shape android:shape="oval">
+            <gradient
+                android:startColor="#8730BF"
+                android:centerColor="#7C19BC"
+                android:endColor="#5239CC"
+                android:angle="45" />
+        </shape>
+    </item>
+
+    <!-- Overlay the image inside the oval shape -->
+    <item android:drawable="@drawable/opposite_arrows"
+        android:top="15dp"
+        android:bottom="15dp"
+        android:right="15dp"
+        android:left="15dp"/>
+</layer-list>
